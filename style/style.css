@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,700;1,900&family=Merriweather:ital,wght@0,400;0,700;1,700;1,900&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header-section {
+    background: rgba(255, 144, 14, 0.10);
+}
+
+/* Navigation Section */
+main {
+    margin: 0 240px;
+}
+
+.navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 230px;
+}
+
+.color {
+    color: #131313;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.navi-2 ul {
+    display: flex;
+    list-style: none;
+}
+
+.navi-2 a {
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+/* banner section */
+
+.banner-section {
+    width: 862px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.banner-title {
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn {
+    color: #FFF;
+    border: 0;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+}
+
+.banner-img {
+    width: 1440px;
+    height: 700px;
+    margin: 60px auto;
+}
+
+/* Team section */
+.team-section {
+    display: flex;
+
+}
+
+.team-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.team-list {
+    text-align: start;
+    padding-left: 75px;
+    padding-top: 290px;
+}
+
+.quick-design {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.quick-design-2 {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.feature {
+    display: flex;
+    gap: 150px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.feature-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    padding-left: 10px;
+    border-left: 5px solid #FF900E;
+    margin-bottom: 24px;
+}
+
+.feature-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sub-feature {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 22px 40px;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    color: (#131313);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ten-year {
+    width: 342px;
+    color: #FFF;
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+    border-radius: 8px;
+    background: #FF900E;
+    position: relative;
+    bottom: 100px;
+    right: 80px;
+
+}
+#ten{
+    font-size: 65px;
+    font-weight: 700;
+    margin: 0;
+}
+#Experience{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+}
